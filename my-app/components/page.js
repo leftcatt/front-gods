@@ -12,7 +12,7 @@ function Counter() {
     })
 
     const increment = () => {
-            setCount((prevCount) => prevCount + 1);
+            setCount((count) => count + 1);
 
 
     }

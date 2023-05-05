@@ -8,13 +8,10 @@ function Counter() {
     useEffect(() => {
             const colors = ['black','red', 'green', 'blue', 'purple']
             setColor(colors[count % colors.length], []);
-
     })
 
     const increment = () => {
             setCount((count) => count + 1);
-
-
     }
 
     return (

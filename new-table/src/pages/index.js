@@ -1,8 +1,10 @@
+import React, {useEffect, useState} from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import {data} from './api/data'
+import {data} from '../util/data'
+
 
 const inter = Inter({ subsets: ["latin"] });
 console.log(data);
@@ -36,14 +38,18 @@ export default function Home() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>{data}</td>
-                <td>age</td>
-                <td>mail</td>
-                <td>number</td>
-                <td>address</td>
-              </tr>
+              {data.map((element) => {
+                return (
+                  <tr>
+                  <th scope="row">{data.indexOf(element + 1)}</th>
+                  <td>{element.name}</td>
+                  <td>{element.age}</td>
+                  <td>{element.mail}</td>
+                  <td>{element.number}</td>
+                  <td>{element.address}</td>
+                </tr>
+                )
+              })}
             </tbody>
           </table>
         </div>

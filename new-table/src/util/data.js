@@ -1,65 +1,54 @@
-export const data = [
-    {
-      "name": "Nguyen",
-      "surnamme": "Louisa ",
-      "email": "louisanguyen@ozean.com",
-      "phone": "+1 (973) 516-3228",
-      "address": "247 Dahill Road, Marysville, Massachusetts, 3737"
-    },
-    {
-      "name": "Castro",
-      "surnamme": "Katy ",
-      "email": "katycastro@ozean.com",
-      "phone": "+1 (886) 521-2969",
-      "address": "226 Dinsmore Place, Nutrioso, Federated States Of Micronesia, 1697"
-    },
-    {
-      "name": "Holman",
-      "surnamme": "Wiggins ",
-      "email": "wigginsholman@ozean.com",
-      "phone": "+1 (872) 478-3898",
-      "address": "155 Fane Court, Limestone, Iowa, 9636"
-    },
-    {
-      "name": "Dominguez",
-      "surnamme": "Skinner ",
-      "email": "skinnerdominguez@ozean.com",
-      "phone": "+1 (821) 559-2809",
-      "address": "942 John Street, Bodega, Marshall Islands, 9622"
-    },
-    {
-      "name": "Mckinney",
-      "surnamme": "Donovan ",
-      "email": "donovanmckinney@ozean.com",
-      "phone": "+1 (925) 586-2706",
-      "address": "642 Turner Place, Kula, Florida, 7659"
-    },
-    {
-      "name": "Logan",
-      "surnamme": "Sheila ",
-      "email": "sheilalogan@ozean.com",
-      "phone": "+1 (907) 498-2062",
-      "address": "607 Bennet Court, Mayfair, Vermont, 3300"
-    },
-    {
-      "name": "Wright",
-      "surnamme": "Bird ",
-      "email": "birdwright@ozean.com",
-      "phone": "+1 (911) 558-3737",
-      "address": "298 Juliana Place, Rivers, Kansas, 1101"
-    },
-    {
-      "name": "Lambert",
-      "surnamme": "Saundra ",
-      "email": "saundralambert@ozean.com",
-      "phone": "+1 (845) 575-2676",
-      "address": "892 Ovington Avenue, Enlow, Ohio, 8578"
-    },
-    {
-      "name": "Gibson",
-      "surnamme": "Dora ",
-      "email": "doragibson@ozean.com",
-      "phone": "+1 (982) 430-2879",
-      "address": "341 Martense Street, Islandia, Arkansas, 4392"
-    }
-  ]
+const data = [
+  {
+    "age": 40,
+    "name": "Leon Houston",
+    "email": "leonhouston@minga.com",
+    "phone": "+1 (822) 505-3662",
+    "address": "419 Hicks Street, Ada, Virginia, 9410"
+  },
+  {
+    "age": 38,
+    "name": "Browning Hahn",
+    "email": "browninghahn@minga.com",
+    "phone": "+1 (886) 552-2477",
+    "address": "502 Otsego Street, Chical, Iowa, 2795"
+  },
+  {
+    "age": 35,
+    "name": "Tia Humphrey",
+    "email": "tiahumphrey@minga.com",
+    "phone": "+1 (912) 509-3659",
+    "address": "751 Losee Terrace, Chelsea, Oklahoma, 2593"
+  },
+  {
+    "age": 29,
+    "name": "Valeria Alvarez",
+    "email": "valeriaalvarez@minga.com",
+    "phone": "+1 (982) 449-3055",
+    "address": "201 Fleet Walk, Ronco, New Hampshire, 6739"
+  },
+  {
+    "age": 32,
+    "name": "Mariana Shaw",
+    "email": "marianashaw@minga.com",
+    "phone": "+1 (952) 422-2967",
+    "address": "968 Guernsey Street, Joes, Texas, 8472"
+  },
+  {
+    "age": 31,
+    "name": "Gabriela Sellers",
+    "email": "gabrielasellers@minga.com",
+    "phone": "+1 (861) 413-2445",
+    "address": "881 Seacoast Terrace, Kula, Ohio, 7033"
+  },
+  {
+    "age": 32,
+    "name": "Lloyd Rasmussen",
+    "email": "lloydrasmussen@minga.com",
+    "phone": "+1 (992) 458-3956",
+    "address": "986 Thornton Street, Denio, Nevada, 6519"
+  }
+]
+  
+
+  export default data

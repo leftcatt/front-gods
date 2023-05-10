@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import {data} from '../util/data'
+import Table from "../util/table";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,20 +38,7 @@ export default function Home() {
                 <th scope="col">address</th>
               </tr>
             </thead>
-            <tbody>
-              {data.map((element) => {
-                return (
-                  <tr>
-                  <th scope="row">{data.indexOf(element + 1)}</th>
-                  <td>{element.name}</td>
-                  <td>{element.age}</td>
-                  <td>{element.mail}</td>
-                  <td>{element.number}</td>
-                  <td>{element.address}</td>
-                </tr>
-                )
-              })}
-            </tbody>
+            <Table/>
           </table>
         </div>
       </main>

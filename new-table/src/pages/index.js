@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from 'react';
+import Link from 'next/link'
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import {data} from '../util/data'
-import Table from "../util/table";
+import Table from "../../components/table";
 
 
 const inter = Inter({ subsets: ["latin"] });

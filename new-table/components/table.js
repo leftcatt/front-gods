@@ -1,4 +1,4 @@
-import data from "./data";
+import data from "../src/util/data";
 
 function Table() {
   return (

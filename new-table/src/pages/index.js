@@ -1,15 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import Link from 'next/link'
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import {data} from '../util/data'
-import Table from "../../components/table";
+
+
 
 
 const inter = Inter({ subsets: ["latin"] });
-console.log(data);
+
 
 export default function Home() {
   return (
@@ -31,15 +30,13 @@ export default function Home() {
           <table className="table">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">id</th>
                 <th scope="col">name</th>
-                <th scope="col">age</th>
-                <th scope="col">mail</th>
-                <th scope="col">number</th>
+                <th scope="col">username</th>
+                <th scope="col">email</th>
                 <th scope="col">address</th>
               </tr>
             </thead>
-            <Table/>
           </table>
         </div>
       </main>

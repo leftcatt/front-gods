@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import TableComponent from "../util/data";
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
                 <th scope="col">address</th>
               </tr>
             </thead>
+            <TableComponent/>
           </table>
         </div>
       </main>
